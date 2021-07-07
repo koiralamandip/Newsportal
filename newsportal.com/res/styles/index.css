@@ -1,0 +1,834 @@
+@import url('https://stockfont.org/?549679eccf04b2cb118cdb027cb8f199890664d9b1da735a421e906062df8e84');
+
+html{
+  font-family:'Oxygen-Regular', times, verdana, sans-serif;
+}
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+header{
+  background-color: #fff;
+  padding:0% 0% 1% 0%;
+  text-align: center;
+}
+
+header div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding: 0.2% 0.5%;
+  color: green;
+  font-weight: bold;
+}
+
+header div a{
+  margin:0% 0.5%;
+  text-decoration: none;
+  font-weight: bold;
+  color:purple;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+header h1 { margin:0%; margin-bottom:3%;padding:0%; font-size:4em; color: black; text-shadow: 2px 2px 2px gray; font-weight: bold; font-style: italic;}
+
+nav.navigators, nav.navig{
+  width:60%;
+  padding:0.2% 20%;
+  background-color: #333;
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+}
+
+nav.navig{
+  width:90%;
+  padding:0.2% 5%;
+}
+
+nav.navigators > ul, nav.navig > ul {
+  width:100%;
+  list-style: none;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav.navigators > ul a, nav.navig > ul a{
+  text-decoration: none;
+  color:white;
+  margin:0;
+  padding: 0;
+}
+
+nav.navigators a:hover, nav.navig a:hover{
+  color:white;
+  /* text-shadow: 2px 0px 3px #ccc; */
+}
+
+nav.navigators > ul li, nav.navig > ul li{
+  position: relative;
+  padding: 4px 0%;
+  font-size: 20px;
+}
+
+#dropper:hover #dropdown{
+  max-height: 500px;
+}
+
+#dropdown{
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+  padding:0% 15%;
+  background-color: #333;
+  width: 100%;
+  left:-15%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  cursor: default;
+  max-height: 0px;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 1s;
+}
+
+#dropdown ul{
+  text-align: left;
+  list-style: none;
+  padding:15px 0%;
+}
+
+body > img{
+  display: block;
+  width: 100%;
+}
+
+main{
+  background-color: #eee;
+  width:80%;
+  padding:1%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  margin: auto;
+  box-shadow: 0px 0px 10px #888;
+  color:#444;
+}
+
+.adminMainDiv{
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.left-nav{
+  width:20%;
+}
+
+.left-nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.left-nav ul li{
+  margin:10px 1%;
+}
+
+.left-nav ul li ul{
+  padding:0px 7%;
+}
+
+.left-nav ul li ul li a{
+  text-decoration: none;
+  color:slateGray;
+  font-size: 18px;
+}
+
+.left-nav ul li, .left-nav ul li a{
+  text-decoration: none;
+  color:slateGray;
+  font-size: 20px;
+}
+
+.action{
+  width: 79%;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+main .searcharea{
+  width:99%;
+  border-radius: 5px;
+  padding:5px 0.5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+main .searcharea form{
+  width: 99%;
+  padding: 4px 0.5%;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.txtbox{
+  width: 95%;
+  font-size:20px;
+  height: 30px;
+  border: none;
+  padding:1%;
+}
+
+main .searcharea form select{
+  box-shadow: 0px 0px 2px #888;
+  font-size: 15px;
+  width:20%;
+  height: 30px;
+  margin-right: 1%;
+}
+
+.btn{
+  height: 30px;
+  border: none;
+  background-color: #eef;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.searcharea form i{
+  font-size: 20px;
+}
+
+main .contentarea, main .contactarea{
+  padding:5px 0.5%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .contentarea  .article_box{
+  width:98%;
+  margin: 5px 0%;
+  padding:10px 1%;
+  background-color: white;
+  box-shadow: 0px 0px 10px #888;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  color:slateGray;
+}
+
+.article_box a{
+  text-decoration: none;
+  color:darkblue;
+}
+
+.article_box .article_category{
+  text-align: right;
+  padding:5px 1%;
+  color:green;
+}
+
+.article_box .article_category h3{
+  margin: 0;
+  padding: 0;
+}
+
+.article_box .article_title{
+  width:96%;
+  box-shadow: 0px 0px 2px #888;
+  margin:5px 1%;
+  padding:5px 1%;
+}
+
+.article_title h2{
+  margin: 0%;
+  padding: 0%;
+}
+
+.article_box .article_brief{
+  width:96%;
+  text-align: justify;
+  margin:5px 1%;
+  padding:5px 1%;
+}
+
+.article_box .article_info{
+  width:96%;
+  margin:5px 1%;
+  padding:5px 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #eee;
+  color: slateGray;
+}
+
+.article_info h3{
+  margin:0%;
+  padding: 0%;
+}
+
+.article_box .article_controls{
+  width:96%;
+  margin:5px 1%;
+  padding:2px 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 25px;
+}
+
+.article_box .article_comment{
+  width:98%;
+  /*margin:5px 1%;*/
+  padding:5px 1%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comment_title{
+  width: 98%;
+  margin-bottom: 5px;
+  box-shadow:0px 0px 2px gray;
+  padding:5px 1%;
+  background-color: #eee;
+}
+
+.comment_box, .addCatForm{
+  width: 98%;
+  /* box-shadow:0px 0px 2px gray; */
+  margin:5px 1%;
+  padding:5px 0%;
+  /* background-color: #eee; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.comment_box textarea, .addCatForm input[type='text']{
+  width: 100%;
+  resize : none;
+  height:20px;
+  border: 1px solid #aaa;
+}
+
+.addCatForm input[type='text']{
+  width: 100%;
+  border: 1px solid #aaa;
+  height: 30px;
+}
+
+.comment_box input, .addCatForm input[type='submit']{
+  cursor: pointer;
+  margin: 0px 2px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+}
+
+.addCatForm input[type='submit']{
+    background-color: #bbb;
+}
+
+.article_comment .comment_top{
+  width:100%;
+    box-shadow: 0px 0px 10px #888;
+  margin-bottom: 10px;
+  padding:5px 0%;
+  background-color: #eee;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.article_comment .comment_top_unpublished{
+  width:100%;
+  margin-bottom: 10px;
+  padding:5px 0%;
+  color: darkgreen;
+  background-color: #E1FC7E;
+  border:1px solid orange;
+  border-radius: 10px;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: wait;
+}
+
+
+.article_comment .comment_bottom{
+  width:95%;
+  margin-left:5%;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.comment_user, .comment_user_unpublished{
+  width: 98%;
+  padding:5px 1%;
+}
+
+.comment_text{
+  width: 98%;
+  text-align: justify;
+  padding:5px 1%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+.comment_user h3{
+  margin: 0px;
+  padding: 0px;
+}
+
+.comment_bottom_unpublished{
+  width:94%;
+  margin-left:5%;
+  border-radius: 10px;
+  border:1px solid orange;
+  color:darkgreen;
+  background-color: #E1FC7E;
+  margin-bottom:5px;
+  cursor: wait;
+}
+
+.title{
+  background-color: #ccc;
+  width:98%;
+  box-shadow: 0px 0px 10px #888;
+  padding:10px 1%;
+  margin:5px 0%;
+}
+
+.title i{
+  font-size: 20px;
+  color:purple;
+}
+
+.title span{
+  font-size: 20px;
+  font-weight:bolder;
+  color:slateGray;
+  margin-left:1%;
+}
+
+.logindiv, .signupdiv{
+  position:fixed;
+  left:15px;
+  top:15px;
+  width:200px;
+  height:200px;
+  background-color: red;
+}
+
+/* <div class="title"> <i class="icon-files orange"></i> <span>Articles</span></div> */
+
+footer{
+  color:white;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.extraLayer{
+  position:fixed;
+  left:0%;
+  top:0%;
+  width:100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.9);
+}
+
+.outAdminLoginBox{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.insideBox{
+  position:absolute;
+  left:25%;
+  top:0%;
+  width:70%;
+}
+
+.adminLoginBox{
+  width: 96%;
+  position:static;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.insideBox form{
+  width:70%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+.insideBox input[type='text'], .insideBox input[type='password'], .insideBox input[type='email'], .role
+{
+  border: 1px solid slateGray;
+  height:45px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding:2% 2% 2% 6%;
+  width:90%;
+  background-color: #eee;
+  margin:2%;
+}
+
+.adminLoginBox input[type='text'], .adminLoginBox input[type='password'], .adminLoginBox input[type='email'], .role{
+    background-color: white;
+}
+
+.addBox{
+  position:inherit;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.insideBox a{
+  margin-top:1%;
+  color:skyblue;
+  text-decoration: none;
+}
+
+.adminLoginBox a{
+  margin-top:1%;
+  color:#88f;
+  text-decoration: none;
+}
+
+.insideBox span{
+  width:70%;
+  position: relative;
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  margin-top:2%;
+  padding:10px 1%;
+}
+
+.adminLoginBox span{
+  justify-content: flex-start;
+}
+
+.insideBox [type='submit']{
+  width:50%;
+  height:50px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color:white;
+  margin:2%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.adminLoginBox [type='submit']{
+  border: 1px solid slateGray;
+  background-color: #eee;
+  color:slateGray;
+}
+
+.article_box i{
+  margin:0px 1%;
+  position: relative;
+}
+
+.article_box i::after{
+  position: absolute;
+  display: none;
+  left:100%;
+  top:-140%;
+  padding:5px 10px;
+  color:#eee;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: #333;
+}
+
+#likeBtn, #dislikeBtn{
+  color: darkred;
+  cursor:progress;
+}
+
+#commentOnViewBtn, #commentOnLoginBtn, #shareBtn{
+  color: lightgreen;
+  cursor:pointer;
+}
+
+.article_box i:hover::after{
+  display: block;
+}
+
+#likeBtn::after, #dislikeBtn::after{
+  content: '* This feature is in development phase';
+  width: 1200%;
+}
+
+#commentOnViewBtn::after, #commentOnLoginBtn::after, #shareBtn::after{
+  color:slateGray;
+  background-color: #eff;
+  box-shadow: 0px 0px 2px #888;
+}
+
+#commentOnViewBtn::after{
+  content: 'View this article to post a comment';
+  width:480%;
+}
+
+#commentOnLoginBtn::after{
+  content: 'You must login to post comments';
+  width:480%;
+}
+
+#shareBtn::after{
+  content: 'Share this article';
+  width: 500%;
+}
+
+.errorDiv{
+  width:98%;
+  box-shadow: 0px 0px 10px #888;
+  padding:10px 1%;
+  background-color: white;
+}
+
+.errorDiv i{
+  color:red;
+  font-size: 20px;
+}
+
+.resultCountDiv{
+  width:98%;
+  padding:15px 1%;
+}
+
+.resultCountDiv i{
+  /* color: green; */
+  font-size: 20px;
+}
+
+.log_div, .log_div_success{
+  width: 98%;
+  display:flex;
+  padding:1%;
+  flex-flow:row nowrap;
+  border:1px solid darkred;
+  align-items: center;
+  height: 30px;
+  border-radius:10px;
+  color:#D8000C;
+  font-weight: bolder;
+  background-color: #FFBABA;
+}
+
+.log_div_success{
+  border:1px solid darkgreen;
+  color:darkgreen;
+  background-color: lightgreen;
+}
+
+
+main .contactarea form{
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding:10px 5%;
+}
+
+main .contactarea form input[type='text'], main .contactarea form input[type='password'], main .contactarea form input[type='email']{
+  border: 1px solid slateGray;
+  height:45px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding:2% 2% 2% 2%;
+  width:96%;
+  margin:10px 0%;
+}
+
+main .contactarea form input[type='submit']{
+  border: 1px solid slateGray;
+  height:45px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding:2% 2% 2% 2%;
+  width:20%;
+  cursor: pointer;
+  margin:10px 0%;
+}
+
+main .contactarea form textarea{
+   border: 1px solid slateGray;
+   font-size: 20px;
+   border-radius: 10px;
+   padding:2% 2% 2% 2%;
+   width:96%;
+   margin:10px 0%;
+   resize: none;
+   text-align: justify;
+}
+
+#uname_rule{
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+
+.greet_admin{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: slateGray;
+}
+
+.admin_table{
+  width: 100%;
+  /* margin: auto; */
+}
+
+
+.admin_table th{
+  background-color: #ccc;
+  height:35px;
+  width: auto;
+  text-align: left;
+}
+
+.admin_table td{
+  width: auto;
+  height:30px;
+  text-align: justify;
+}
+
+td.newsEditTD{
+  /* pointer-events: none; */
+}
+
+.articleChange td{
+  box-shadow: 0px 0px 4px black;
+}
+
+.admin_table tr:nth-child(even){
+  background-color: #ccc;
+}
+
+.articleChange .admin_table tr{
+  background-color: white;
+}
+
+.admin_table input[type='submit']{
+  height:35px;
+  background-color: transparent;
+  font-size: 20px;
+  border:none;
+  cursor: pointer;
+  color:green;
+  font-weight: bolder;
+}
+
+.tab{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.article_add_div{
+  width:98%;
+  padding:4px 1%;
+}
+
+.article_data_add{
+  width: 98%;
+  padding:5px 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.article_data_add input[type='text'],.article_data_add input[type='file'], .article_data_add select{
+  width:auto;
+  height:35px;
+  font-size: 17px;
+  padding: 2px 2%;
+  border-radius: 10px;
+  border:1px solid slateGray;
+  margin: 2px 1%;
+}
+
+.article_data_add input[type='text']{
+  width: 70%;
+}
+
+.article_data_add input[type='submit']{
+  width: 10% auto;
+  height:45px;
+  border:1px solid slateGray;
+  border-radius: 10px;
+  background-color: #ccc;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.article_detail_add{
+  width: 98%;
+  padding:5px 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.article_detail_add textarea{
+  width:96%;
+  padding:5px 2%;
+  resize: none;
+  border-radius: 5px;
+  border: none;
+  height:750px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+#comment_user{
+  position:absolute;
+  left:auto;
+  top:5%;
+  background-color:white;
+}
